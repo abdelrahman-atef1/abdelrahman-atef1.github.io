@@ -1,6 +1,6 @@
-import profileImgLarge from '~/assets/profile-large.jpg';
+import profileImgLarge from '~/assets/profile.jpeg';
 import profileImgPlaceholder from '~/assets/profile-placeholder.jpg';
-import profileImg from '~/assets/profile.jpg';
+import profileImg from '~/assets/profile.jpeg';
 import { Button } from '~/components/button';
 import { DecoderText } from '~/components/decoder-text';
 import { Divider } from '~/components/divider';
@@ -18,19 +18,19 @@ import styles from './profile.module.css';
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
-      <DecoderText text="Hi there" start={visible} delay={500} />
+      <DecoderText text="Hello there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I'm Abdelrahman, an Egyptian Flutter developer based in Egypt. I'm passionate about creating 
+      mobile applications using the Flutter framework. My projects involve developing cross-platform 
+      apps, enhancing user interfaces, and crafting smooth interactive experiences. Being proficient 
+      in coding allows me to rapidly prototype and validate ideas. If you're curious about the tools 
+      and software I use, check out my <Link href="/uses">uses page</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      In my free time, I enjoy honing my programming skills, exploring the latest app development 
+      technologies, and contributing to open-source projects. I'm always excited to hear about new 
+      and interesting projects, so feel free to get in touch.
     </Text>
   </Fragment>
 );

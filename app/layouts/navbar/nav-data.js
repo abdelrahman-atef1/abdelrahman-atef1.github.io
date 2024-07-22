@@ -21,14 +21,14 @@ export const navLinks = [
 
 export const socialLinks = [
   {
-    label: 'Twitter',
-    url: `https://twitter.com/${config.twitter}`,
-    icon: 'twitter',
+    label: 'Upwork',
+    url: `https://www.upwork.com/freelancers/${config.upwork}`,
+    icon: 'upwork',
   },
   {
-    label: 'Figma',
-    url: `https://www.figma.com/${config.figma}`,
-    icon: 'figma',
+    label: 'linkedin',
+    url: `https://www.linkedin.com/in/${config.linkedin}`,
+    icon: 'linkedin',
   },
   {
     label: 'Github',

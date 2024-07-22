@@ -15,6 +15,7 @@ const baseTokens = {
   fontStack: `Gotham, var(--systemFontStack)`,
   monoFontStack:
     'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace',
+  arabicFontStack: 'IBMPlex, IPA Gothic, Arial, sans-serif',
   japaneseFontStack:
     'IPA Gothic, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Hiragino Sans, Osaka, メイリオ, Meiryo, Segoe UI, sans-serif',
   fontWeightRegular: 400,

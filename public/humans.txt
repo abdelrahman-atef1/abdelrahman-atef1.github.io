@@ -36,4 +36,5 @@ FONTS | フォント
 
 Gotham
 IPA Gothic Regular
+IBMPlex
 Hiragino Kaku Gothic W8
