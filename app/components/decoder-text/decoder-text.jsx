@@ -7,7 +7,7 @@ import styles from './decoder-text.module.css';
 
 // prettier-ignore
 const glyphs = [
-  'ا', 'ب', 'ت', 'ث', 'ج',
+  // 'ا', 'ب', 'ت', 'ث', 'ج',
   'ح', 'خ', 'د', 'ذ', 'ر',
   'ز', 'س', 'ش', 'ص', 'ض',
   'ط', 'ظ', 'ع', 'غ', 'ف',
